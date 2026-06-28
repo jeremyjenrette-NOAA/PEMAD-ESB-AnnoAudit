@@ -10,10 +10,10 @@ library(tools)
 library(magick)
 
 # ---- Specify paths/arguments ----
-img_dirname = "/Volumes/PortableSSD/saltnoaa/images/starfish_2024_pred/"
-det_path <- "detections/starfish_2024_subset.csv"
+img_dirname = "/Volumes/PortableSSD/saltnoaa/images/scal_2024/"
+det_path <- "detections/scal_2024.csv"
 IMAGE_SPLIT <- "right"   # options: "none", "left", "right"
-class = "starfish"
+class = "scallop"
 
 user_list <- c(
   "Jeremy",
